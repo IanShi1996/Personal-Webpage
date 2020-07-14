@@ -1,18 +1,27 @@
 ---
 layout: page
 ---
+<div class="profile col one {{ page.profile.align }}">
+  <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+</div>
 
-{% if page.profile %}
-  <div class="profile col one {{ page.profile.align }}">
-    {% if page.profile.image %}
-      <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-    {% if page.profile.address %}
-      <div class="address">
-        {{ page.profile.address }}
-      </div>
-    {% endif %}
-  </div>
-{% endif %}
+<header class="profile-header">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <h5 class="page-description">{{ page.description }}</h5>
+</header>
 
 {{ content }}
+
+{% include social.html %}
+
+<h2 class="subsection_title" id="publications">Publications</h2>
+
+{% include publications.html %}
+
+<h2 class="subsection_title" id="projects">Projects</h2>
+
+Coming soon!
+
+<h2 class="subsection_title" id="teaching">Teaching</h2>
+{% include teaching.html %}
+
