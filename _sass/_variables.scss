@@ -2,7 +2,7 @@
 /******************************************************************************/
 
 // Typography
-$base-font-size: 16px !default;
+$base-font-size: 9px !default;
 $small-font-size:  0.875rem !default;
 $bold-font-weight: bold !default;
 $font-family: Roboto Slab, serif, Helvetica, Arial, sans-serif !default;
@@ -29,11 +29,6 @@ $abbr-border-bottom: 1px black dotted;
 
 // Page width
 $measure-width: 42rem !default;
-
-// Viewport widths
-$viewport-small: 32em;
-$viewport-medium: 48em;
-$viewport-large: 64em;
 
 // Colors
 $red:               #FF3636 !default;
@@ -90,7 +85,6 @@ $space-4: 4rem !default;
 
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
-$nav-height:                    56px;
 
 // Buttons
 $button-font-size: inherit !default;
@@ -139,7 +133,7 @@ $hljs-change: $dark-blue;
 $hljs-chunk: $light-gray;
 
 // Header
-$nav-height: 56px;
+$nav-height: 32px;
 
 // Footer
 $footer-border-top: thin solid $grey-color-dark;

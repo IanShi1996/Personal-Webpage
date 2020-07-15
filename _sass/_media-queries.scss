@@ -1,8 +1,10 @@
-@media screen and (min-width: $viewport-small) {
-  html {
-    font-size: 16px;
+@media screen and (max-width: 40em) {
+  .page-content {
+    padding-top:48px;
   }
+}
 
+@media screen and (min-width: 40em) {
   h1,
   .h1 {
     font-size: $h1;
@@ -14,6 +16,7 @@
 
   .site-nav {
     margin-top: 0;
+    line-height: 56px;
   }
 
   .site-header a {
@@ -43,19 +46,110 @@
   }
 }
 
-@media screen and (min-width: $viewport-medium) {
+@media screen and (min-width: 33em) {
+  html {
+    font-size: 9.5px;
+  }
+  .contacticon{
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 34em) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 36em) {
+  html {
+    font-size: 11px;
+  }
+  .contacticon{
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 38em) {
+  html {
+    font-size: 11.5px;
+  }
+}
+
+@media screen and (min-width: 39em) {
+  html {
+    font-size: 12px;
+  }
+  .contacticon{
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 42em) {
+  html {
+    font-size: 13px;
+  }
+  .contacticon{
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 44em) {
+  html {
+    font-size: 14px;
+  }
+  .contacticon{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 46em) {
+  html {
+    font-size: 15px;
+  }
+
+  .contacticon{
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+  .contacticon{
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 16.5px;
+  }
+  .contacticon{
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 51em) {
+  html {
+    font-size: 17px;
+  }
+  .contacticon{
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 54em) {
   html {
     font-size: 18px;
   }
-}
-
-@media screen and (min-width: $viewport-large) {
-  html {
-    font-size: 20px;
+  .contacticon{
+    font-size: 60px;
   }
 }
 
-@media screen and (min-width: $viewport-large + 14) {
+
+@media screen and (min-width: 40em + 14) {
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
