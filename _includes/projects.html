@@ -1,0 +1,15 @@
+<div class="projects">
+	{% assign sorted_items = (site.projects | sort: 'date') %}
+	{% for item in sorted_items reversed %}
+		<h3 class=projects-title> {{ item.title }} </h3>
+
+		{{ item.content }}
+
+		<div class="projects-authors">{{ item.authors }}</div>
+
+		{% if item.authors %}
+			<div class="projects-venue">{{ item.venue }}</div>
+		{% endif %}
+		
+	{% endfor %}
+</div>

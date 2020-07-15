@@ -4,19 +4,20 @@
 		{% assign sorted_items = (site.publications | sort: 'date') %}
 		{% for item in sorted_items reversed %}
 			<tr>
-				<td class="info-img-cell">
-					<img class="info-picture" src="{{ item.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+				<td class="publication-img-cell">
+					<img class="publication-picture" src="{{ item.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
 				</td>
-				<td class="info-text-cell">
-					<h3 class=info-title> {{ item.title }} </h3>
+				<td class="publication-text-cell">
+					<h3 class="publication-title"> {{ item.title }} </h3>
 
 					<p>{{ item.content }}</p>
+					<div class="publication-authors">{{ item.authors }}</div>
 
-					<div class="info-authors">{{ item.authors }}</div>
-					<div class="info-venue">{{ item.venue }}</div>
+					{% if item.authors %}
+						<div class="publication-venue">{{ item.venue }}</div>
+					{% endif %}
 
-					<div class="info-link">
-						
+					<div class="publication-link">
 						<a href="{{ item.link }}"> Paper </a>
 
 						{% if item.code %}

@@ -1,5 +1,4 @@
 ---
-layout: info
 title: ePlant &#58; Visualizing and Exploring Multiple Levels of Data for Hypothesis Generation in Plant Biology
 
 authors: Jamie Waese, Jim Fan, Asher Pasha, Hans Yu, Geoffrey Fucile, <b>Ruian Shi</b>, Matthew Cumming, Lawrence A Kelley, Michael J Sternberg, Vivek Krishnakumar, Erik Ferlanti, Jason Miller, Chris Town, Wolfgang Stuerzlinger, Nicholas J Provart

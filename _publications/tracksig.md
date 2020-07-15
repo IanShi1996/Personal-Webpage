@@ -1,5 +1,4 @@
 ---
-layout: info
 title: Reconstructing evolutionary trajectories of mutation signature activities in cancer using TrackSig
 
 authors: Yulia Rubanova, <b>Ruian Shi</b>, Caitlin F. Harrigan, Roujia Li, Jeff Wintersinger, Nil Sahin, Amit Deshwar, PCAWG Evolution and Heterogeneity Working Group, Quaid Morris, PCAWG Consortium 

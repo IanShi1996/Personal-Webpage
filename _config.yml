@@ -10,7 +10,6 @@ footer_text: >
 
 url: # the base hostname & protocol for your site
 baseurl: /~ruiashi # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -26,8 +25,7 @@ scholar_authorid: p7GXhskAAAAJ
 
 collections:
   publications:
-    output: true
-    permalink: /publications/:path/
+  projects:
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
